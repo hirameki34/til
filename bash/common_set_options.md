@@ -1,8 +1,8 @@
-# `set -e` / `set -u` / `set -x`
+# 常用 `set` 选项
 
 ## `set -e`：出错后停止执行
 
-> Exit immediately if a pipeline (see Pipelines), which may consist of a single simple command (see Simple Commands), a list (see Lists of Commands), or a compound command (see Compound Commands) returns a non-zero status. 
+> Exit immediately if a pipeline (see Pipelines), which may consist of a single simple command (see Simple Commands), a list (see Lists of Commands), or a compound command (see Compound Commands) returns a non-zero status.
 
 当 bash 脚本遇到不等于 0 的返回值时，直接退出。
 
