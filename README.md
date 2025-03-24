@@ -4,19 +4,23 @@
 
 ### Bash
 
-[常用 `set` 选项](bash/common_set_options.md)
-[在 Bash 中设置命令超时](bash/command_timeout.md)
+[常用 `set` 选项](/bash/common_set_options.md)
+[在 Bash 中设置命令超时](/bash/command_timeout.md)
 
 ### Go
 
-[处理 OS signal](go/signal.md)
+[处理 OS signal](/go/signal.md)
 
 ### Nix
 
-[在 WSL 中安装 NixOS](nix/wsl-setup.md)
+[在 WSL 中安装 NixOS](/nix/wsl-setup.md)
 
 ### Python
 
-[自定义 `matplotlib.pyplot` 绘图颜色](python/custom_pyplot_colors.md)
+[自定义 `matplotlib.pyplot` 绘图颜色](/python/custom_pyplot_colors.md)
 
-[提取项目依赖](python/extract_requirements.md)
+[提取项目依赖](/python/extract_requirements.md)
+
+### MISC
+
+[树莓派 4B 刷入 OpenWRT](/misc/raspi_openwrt.md)
