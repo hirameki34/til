@@ -2,6 +2,21 @@
 
 ## Contents
 
-- [BASH](bash/)
-  - [常用 `set` 选项](bash/command_set_options.md)
-  - [在 Bash 中设置命令超时](bash/command_timeout.md)
+### Bash
+
+[常用 `set` 选项](bash/common_set_options.md)
+[在 Bash 中设置命令超时](bash/command_timeout.md)
+
+### Go
+
+[处理 OS signal](go/signal.md)
+
+### Nix
+
+[在 WSL 中安装 NixOS](nix/wsl-setup.md)
+
+### Python
+
+[自定义 `matplotlib.pyplot` 绘图颜色](python/custom_pyplot_colors.md)
+
+[提取项目依赖](python/extract_requirements.md)
