@@ -24,6 +24,10 @@
 
 [提取项目依赖](/python/extract_requirements.md)
 
+### Rust
+
+[理解 `as_ref`](/rust/understand_as_ref.md)
+
 ### MISC
 
 [树莓派 4B 刷入 OpenWRT](/misc/raspi_openwrt.md)
