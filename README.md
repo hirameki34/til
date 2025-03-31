@@ -30,6 +30,10 @@
 
 [合并链表时的环从何而来？](/rust/loop_in_merging_list.md)
 
+### 机器学习
+
+[基础概念](/ml/ml_basics.md)
+
 ### MISC
 
 [树莓派 4B 刷入 OpenWRT](/misc/raspi_openwrt.md)
