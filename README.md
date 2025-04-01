@@ -24,6 +24,8 @@
 
 [提取项目依赖](/python/extract_requirements.md)
 
+[Numpy 的广播机制](/python/numpy_broadcasting.md)
+
 ### Rust
 
 [理解 `as_ref`](/rust/understand_as_ref.md)
