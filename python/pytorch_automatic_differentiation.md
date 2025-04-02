@@ -92,3 +92,7 @@ d.backward()
 ``` python
 a.grad == d / a # tensor(True)
 ```
+
+---
+
+**Reference**: [2.5. 自动微分 — 动手学深度学习 2.0.0 documentation](https://zh.d2l.ai/chapter_preliminaries/autograd.html)
