@@ -26,6 +26,8 @@
 
 [Numpy 的广播机制](/python/numpy_broadcasting.md)
 
+[使用 PyTorch 自动微分](/python/pytorch_automatic_differentiation.md)
+
 ### Rust
 
 [理解 `as_ref`](/rust/understand_as_ref.md)
@@ -35,6 +37,8 @@
 ### 机器学习
 
 [基础概念](/ml/ml_basics.md)
+
+[神经网络中的计算图](/ml/computational_graphs.md)
 
 ### MISC
 
