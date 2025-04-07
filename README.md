@@ -28,6 +28,8 @@
 
 [使用 PyTorch 自动微分](/python/pytorch_automatic_differentiation.md)
 
+[使用 PyTorch 从零开始实现线性回归](/python/pytorch_linreg.md)
+
 ### Rust
 
 [理解 `as_ref`](/rust/understand_as_ref.md)
