@@ -1,3 +1,4 @@
 title: 我的TIL笔记
 description: 每日学习记录
 theme: jekyll-theme-minimal
+markdown: kramdown
