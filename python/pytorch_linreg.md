@@ -48,7 +48,6 @@ def linreg(X, w, b):
 平方误差可以定义为以下公式：
 
 $$
-
 l^{(i)}(\mathbf{w}, b) = \frac{1}{2}(\hat{y}^{(i)} - y^{(i)}) ^ 2
 $$
 
