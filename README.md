@@ -42,6 +42,8 @@
 
 [神经网络中的计算图](/ml/computational_graphs.md)
 
+[权重衰减](/ml/weight_decay.md)
+
 ### MISC
 
 [树莓派 4B 刷入 OpenWRT](/misc/raspi_openwrt.md)
