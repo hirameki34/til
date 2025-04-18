@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title }}</title>
+  <!-- 引入 MathJax 3.x -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        processHtmlClass: 'mathjax' // 仅处理带有 mathjax 类的元素
+      }
+    };
+  </script>
+  <!-- 可选：添加 CSS 样式 -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+  <div class="container">
+    {{ content }}
+  </div>
+</body>
+
+</html>

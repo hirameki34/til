@@ -2,3 +2,11 @@ title: 我的TIL笔记
 description: 每日学习记录
 theme: jekyll-theme-minimal
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      layout: default
