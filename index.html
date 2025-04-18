@@ -5,17 +5,16 @@
   <meta charset="UTF-8">
   <title>我的TIL笔记</title>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  <!-- 引入 MathJax -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    async></script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        displayMath: [['$$','$$'], ['\\[','\\]']],
+  <!-- 引入 MathJax 3.x -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
         processEscapes: true
       }
-    });
+    };
   </script>
 </head>
 
@@ -25,8 +24,15 @@
     window.$docsify = {
       name: '我的TIL笔记',
       repo: 'hirameki34/til',
-      subMaxLevel: 2
-    }
+      subMaxLevel: 2,
+      afterEach: function (content) {
+        // 触发 MathJax 重新渲染
+        if (window.MathJax) {
+          window.MathJax.typesetPromise();
+        }
+        return content;
+      }
+    };
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>

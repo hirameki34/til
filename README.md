@@ -47,3 +47,5 @@
 ### MISC
 
 [树莓派 4B 刷入 OpenWRT](/misc/raspi_openwrt.md)
+
+[使用 EasyTier 异地组网](/misc/easytier.md)
