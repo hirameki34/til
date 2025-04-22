@@ -36,6 +36,8 @@
 
 [合并链表时的环从何而来？](/rust/loop_in_merging_list.md)
 
+[什么是 `no_std`](/rust/no_std.md)
+
 ### 机器学习
 
 [基础概念](/ml/ml_basics.md)
