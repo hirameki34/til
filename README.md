@@ -38,6 +38,8 @@
 
 [什么是 `no_std`](/rust/no_std.md)
 
+[整数运算方法](/rust/add_methods.md)
+
 ### 机器学习
 
 [基础概念](/ml/ml_basics.md)
