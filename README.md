@@ -40,6 +40,12 @@
 
 [整数运算方法](/rust/add_methods.md)
 
+### 虚拟化技术
+
+[全虚拟化、半虚拟化和硬件辅助虚拟化](/virtualization/techs.md)
+
+[QEMU 与 KVM](/virtualization/qemu_kvm.md)
+
 ### 机器学习
 
 [基础概念](/ml/ml_basics.md)
