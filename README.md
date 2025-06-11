@@ -18,6 +18,10 @@
 
 [在 WSL 中安装 NixOS](/nix/wsl-setup.md)
 
+### OS
+
+[Process Group](/os/process_group.md)
+
 ### Python
 
 [自定义 `matplotlib.pyplot` 绘图颜色](/python/custom_pyplot_colors.md)
