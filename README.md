@@ -67,3 +67,5 @@
 [RAID 和 RAID-Z](/misc/raid-z.md)
 
 [安装 xterm-ghostty](/misc/install_ghostty.md)
+
+[SSH 配置](/misc/ssh-config.md)
