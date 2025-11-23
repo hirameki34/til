@@ -65,3 +65,5 @@
 [使用 EasyTier 异地组网](/misc/easytier.md)
 
 [RAID 和 RAID-Z](/misc/raid-z.md)
+
+[安装 xterm-ghostty](/misc/install_ghostty.md)
