@@ -69,3 +69,5 @@
 [安装 xterm-ghostty](/misc/install_ghostty.md)
 
 [SSH 配置](/misc/ssh-config.md)
+
+[使用 Bear 配置 C 项目在 VSCode / clangd 上的语言服务](/misc/c_project_brear.md)
